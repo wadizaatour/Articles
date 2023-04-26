@@ -1,5 +1,6 @@
 # Articles
 
+Examples of Semantic Versioning https://semver.org/
 
 Semantic Versioning (often abbreviated as SemVer) is a widely-used convention for versioning software. The goal of SemVer is to provide a standardized way to communicate changes to a software project, making it easier for developers to understand how different versions of a software package relate to each other and what changes they can expect when upgrading to a new version.
 
