@@ -17,4 +17,4 @@ One of the key benefits of using SemVer is that it provides a clear and unambigu
 
 Another benefit of SemVer is that it encourages good development practices. In order to use SemVer effectively, developers must carefully consider the impact of each change they make to a software package and ensure that version numbers are updated in a consistent and meaningful way. This can help to reduce the likelihood of introducing bugs or breaking changes into a software package, making it more stable and reliable over time.
 
-In conclusion, Semantic Versioning is an important convention for versioning software that provides a standardized way to communicate changes between different versions of a software package. By following the conventions of SemVer,
+In conclusion, Semantic Versioning is an important convention for versioning software that provides a standardized way to communicate changes between different versions of a software package.
