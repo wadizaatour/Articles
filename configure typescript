@@ -1,0 +1,46 @@
+Full Article: https://dev.to/wadizaatour/how-to-configutre-typscript-in-your-project-484h
+
+To configure TypeScript in a project, you need to follow these steps:
+
+1. Install TypeScript: You can install TypeScript using npm (Node Package Manager) by running the following command in your project directory:
+```
+npm install --save-dev typescript
+```
+This will install the latest version of TypeScript and save it as a development dependency in your project.
+
+2. Create a tsconfig.json file: This file specifies the TypeScript compiler options for your project. You can create a basic `tsconfig.json` file by running the following command:
+```
+npx tsc --init
+```
+This will create a default `tsconfig.json` file in your project directory.
+
+3. Configure the tsconfig.json file: In the `tsconfig.json` file, you can specify options such as the target JavaScript version, module system, source directory, output directory, and more. You can also include or exclude specific files from compilation. Here is an example of a basic `tsconfig.json` file:
+```json
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+```
+In this example, we specify that we want to target ECMAScript 5, use the CommonJS module system, generate source maps, and output the compiled files to a `dist` directory. We also include all `.ts` files in the `src` directory and exclude the `node_modules` directory.
+
+4. Add a TypeScript build script to your package.json file: You can add a build script that runs the TypeScript compiler using the `tsc` command. Here's an example:
+```json
+{
+  "scripts": {
+    "build": "tsc"
+  }
+}
+```
+This will compile your TypeScript code and output the compiled JavaScript files to the directory specified in your `tsconfig.json` file.
+
+With these steps, you should now have TypeScript configured in your project and be ready to start writing TypeScript code.
