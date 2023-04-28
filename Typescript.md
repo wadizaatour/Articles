@@ -1,3 +1,4 @@
+TypeScript is an open-source programming language developed by Microsoft that builds on top of JavaScript by adding optional static typing, class-based object-oriented programming, and other features. It is designed to make it easier to write and maintain large-scale JavaScript applications, particularly in the context of web development.
 There are several advantages of using TypeScript in modern frontend development:
 
 Type safety: TypeScript provides type checking at compile-time, which helps catch potential errors before runtime. This makes it easier to write and maintain code, especially in larger projects with many developers.
