@@ -1,7 +1,7 @@
-# Articles
+# Articles for dummies
 ![image](https://user-images.githubusercontent.com/25867217/234929512-0655f872-9881-4222-a700-c9d10802581b.png)
 
-Welcome to our platform of articles dedicated to keeping you updated on the latest developments in frontend development!
+Welcome to our platform of Articles for Dummies dedicated to keeping you updated on the latest developments in frontend development!
 
 As technology advances at a rapid pace, keeping up with the latest trends and updates can be challenging, especially in the fast-moving world of frontend development. Our platform aims to provide you with a comprehensive resource for all things related to frontend development, including updates on new frameworks, libraries, tools, and best practices.
 
