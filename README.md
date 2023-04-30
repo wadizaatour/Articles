@@ -1,4 +1,4 @@
-# Articles for dummies
+# Articles for Dummies
 ![image](https://user-images.githubusercontent.com/25867217/234929512-0655f872-9881-4222-a700-c9d10802581b.png)
 
 Welcome to our platform of Articles for Dummies dedicated to keeping you updated on the latest developments in frontend development!
