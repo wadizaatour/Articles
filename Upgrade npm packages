@@ -1,0 +1,25 @@
+Updating local and global packages you downloaded from the registry helps keep your code and tools stable, usable, and secure.
+
+Updating local packages
+
+Navigate to the root directory of your project and ensure it contains a package.json file:
+
+ 
+cd /path/to/project
+In your project root directory, run the update command:
+
+ 
+npm update
+To test the update, run the outdated command. There should not be any output.
+
+ 
+npm outdated
+
+
+npm-check-updates
+The tool we are going to use is called npm-check-updates. You can find a full list of commands and flags here, but the quick steps are listed below.
+
+Install the tool npm install -g npm-check-updates
+Verify that your package.json is checked in to version control (the next command will overwrite the package.json)
+Validate the changes to your package.json
+Install the new packages npm install
