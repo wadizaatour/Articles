@@ -1,3 +1,23 @@
 Storybook configuration:https://medium.com/kantega/setting-up-storybook-7-with-vite-and-tailwind-css-8e39f4343011
 Combining storybook files into one https://medium.com/storybookjs/storybook-composition-af0da9084fba
 Structuring your storybook: https://storybook.js.org/blog/structuring-your-storybook/
+
+// Checkbox.stories.js
+import { Checkbox } from './Checkbox';
+ 
+export default {
+ title: 'Design System/Atoms/Checkbox',
+ component: Checkbox,
+};
+
+Overview story
+Start with a documentation page explaining what the component does and when to use it. This is also an excellent place to include the design specs, visual guidelines, responsive behaviour, and accessibility do's and don'ts.
+
+Playground story
+Next is a Playground story, where all the component props are wired up to Storybook controls. This works well for demonstrating the component API and prototyping in the browser.
+
+Feature stories
+Feature stories are a set of stories that cover all the states and variants of the component. For JavaScript functions, you often write test cases covering all their use cases. Feature stories play the exact same role for your UI.
+
+Recipe stories
+Recipe stories demonstrate how to combine a component with others for real-world scenarios. Similar to an integration test, they show how components work together. For instance, composing an Input with a Label and Buttons to create a form. Or showcasing how different layouts can be constructed using a ProductCar
