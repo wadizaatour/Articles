@@ -21,3 +21,18 @@ Feature stories are a set of stories that cover all the states and variants of t
 
 Recipe stories
 Recipe stories demonstrate how to combine a component with others for real-world scenarios. Similar to an integration test, they show how components work together. For instance, composing an Input with a Label and Buttons to create a form. Or showcasing how different layouts can be constructed using a ProductCar
+
+https://storybookblog.ghost.io/content/images/2022/10/pasted-image-0.gif
+
+Benifites of upgrade to storybook 7.0
+
+ - Pre-bundeling resulted the build time was reduced by over 15 seconds
+ - No Webpack and smaller install size leads to streamlined Storybook's install size by 28% so far.
+ - Zero config Storybook 7.0 extends from your existing Vite config file
+ 
+ 
+ https://storybookblog.ghost.io/content/images/2022/10/pasted-image-0-1.gif
+ 
+ How to configure storybook 7.0: 
+ npx storybook upgrade
+ npx storybook init --builder=vite
