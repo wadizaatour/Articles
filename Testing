@@ -1,2 +1,28 @@
 For vue 3 Vitest is the way to go:
 https://vitest.dev/guide/features.html
+
+The Vue Testing Library is a popular testing library that provides utilities and helpers for testing Vue.js components. It encourages developers to write tests that closely resemble how users interact with the application. Here are some benefits of using the Vue Testing Library:
+
+1. User-centric approach: The Vue Testing Library focuses on testing components from a user's perspective. It allows you to simulate user interactions and assert the expected outcomes, making your tests more meaningful and closer to real-world scenarios.
+
+2. Simple and lightweight: The library has a minimal API surface and provides a set of intuitive and easy-to-use methods. It aims to keep your testing code simple, readable, and maintainable.
+
+3. No dependency on implementation details: Instead of relying on internal component implementation details, the Vue Testing Library encourages testing the final rendered output and user interactions. This approach makes your tests more resilient to changes in implementation, making them less brittle.
+
+Now, let's discuss some tips for writing good testing code with the Vue Testing Library:
+
+1. Test behavior, not implementation: Focus on testing the behavior of your components rather than specific implementation details. Test how users interact with the component and assert the expected outcomes.
+
+2. Write clear and descriptive test cases: Use descriptive test case names that clearly explain what behavior is being tested. This helps in quickly understanding the purpose of each test and makes debugging easier.
+
+3. Use query methods to find elements: The Vue Testing Library provides various query methods (e.g., `getByText`, `getByRole`, `getByTestId`) to find elements in the rendered component. Prefer these query methods over selecting elements using CSS selectors or DOM traversal methods. This approach promotes accessibility and ensures your tests are more robust.
+
+4. Simulate user interactions: Utilize the library's event simulation methods (e.g., `fireEvent.click`, `fireEvent.input`) to simulate user interactions with the component. This allows you to test how the component responds to user actions.
+
+5. Make assertions on the rendered output: Use the provided assertions to check whether the component renders the expected output based on the given state or user interactions. For example, use `expect(screen.getByText('Hello')).toBeInTheDocument()` to assert that the text 'Hello' is present in the rendered component.
+
+6. Keep tests isolated and independent: Ensure that each test case is independent of others and does not rely on shared state. Isolated tests are easier to understand, debug, and maintain.
+
+7. Test edge cases and error handling: Include test cases that cover edge cases, boundary conditions, and error handling scenarios. This helps uncover potential issues and improves the overall reliability of your code.
+
+Remember, writing good testing code involves following best practices and considering the specific needs of your application. The Vue Testing Library documentation provides detailed information on its API and usage, and it's a valuable resource to further explore testing techniques specific to Vue.js applications.
