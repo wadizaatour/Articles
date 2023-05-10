@@ -3,3 +3,5 @@ https://phabricator.wikimedia.org/phame/post/view/282/section_translation_migrat
 Charts:
 https://stackblitz.com/github/apertureless/vue-chartjs/tree/main/sandboxes/bar?file=index.html
 https://vue-chartjs.org/examples/
+Vue3 lazyloading:
+https://www.npmjs.com/package/vue3-lazyload
