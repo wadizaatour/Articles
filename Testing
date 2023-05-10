@@ -1,6 +1,7 @@
 For vue 3 Vitest is the way to go:
 https://vitest.dev/guide/features.html
-
+Jest API testing:
+https://www.makeuseof.com/express-apis-jest-test/
 The Vue Testing Library is a popular testing library that provides utilities and helpers for testing Vue.js components. It encourages developers to write tests that closely resemble how users interact with the application. Here are some benefits of using the Vue Testing Library:
 
 1. User-centric approach: The Vue Testing Library focuses on testing components from a user's perspective. It allows you to simulate user interactions and assert the expected outcomes, making your tests more meaningful and closer to real-world scenarios.
