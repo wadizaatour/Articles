@@ -1,7 +1,7 @@
 Storybook configuration:https://medium.com/kantega/setting-up-storybook-7-with-vite-and-tailwind-css-8e39f4343011
 Combining storybook files into one https://medium.com/storybookjs/storybook-composition-af0da9084fba
 Structuring your storybook: https://storybook.js.org/blog/structuring-your-storybook/
-
+Combining storybook https://medium.com/storybookjs/storybook-composition-af0da9084fba
 // Checkbox.stories.js
 import { Checkbox } from './Checkbox';
  
