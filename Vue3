@@ -2,3 +2,4 @@ Migrate from vue 2 to vue 3
 https://phabricator.wikimedia.org/phame/post/view/282/section_translation_migrated_to_vue_3/
 Charts:
 https://stackblitz.com/github/apertureless/vue-chartjs/tree/main/sandboxes/bar?file=index.html
+https://vue-chartjs.org/examples/
