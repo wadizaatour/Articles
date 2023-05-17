@@ -1,0 +1,7 @@
+How to upgrade npm packages at once: 
+npm-check-updates
+Install the tool npm install -g npm-check-updates.
+Verify that your package.json is checked in to version control (the next command will overwrite the package.json)
+Update the package.json ncu --upgrade.
+Validate the changes to your package.json.
+Install the new packages npm install.
