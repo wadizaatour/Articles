@@ -17,3 +17,6 @@ Different type of migration
 https://frontendmastery.com/posts/frontend-migration-guide/
 Solid components vue js 
 https://medium.com/@moein.mirkiani/solid-principles-in-vue-29ecc988f968
+
+if you like to redirect to 404 page in route use this 
+ { path: "/:pathMatch(.*)*", component: Error404 },
